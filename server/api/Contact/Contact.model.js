@@ -5,8 +5,11 @@ var mongoose = require('mongoose'),
 
 var ContactSchema = new Schema({
   name: String,
+  phone: String,
+  email: String,
   info: String,
-  active: Boolean
+  entreprise: {type: Number, unique: true},  
+  fonction: String,
 });
 
 module.exports = mongoose.model('Contact', ContactSchema);

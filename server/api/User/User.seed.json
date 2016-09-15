@@ -1,12 +1,39 @@
 [
 	{
 		"name": "the name",
+		"password": "motdepasse1",
+		"photo": "/img/MRrobot",
+		"fonction": "developpeur",
+		"grant": "Front",
+		"projects": ["idproject","idproject2"],
+		"tasks": ["idtask","idtask2"],
+		"droit": "admin",
+		"hourlyrate": "300€",
   		"info": "description",
   		"active": true
 	},
 	{
 		"name": "the second name",
-  		"info": "description #2",
-  		"active": true
+  		"password": "motdepasse2",
+		"photo": "lien photo",
+		"fonction": "developpeur",
+		"grant": "Back",
+		"projects": ["idproject3","idproject4"],
+		"tasks": ["idtask3","idtask4"],
+		"droit": "user",
+		"hourlyrate":"300€",
+		"info": "description #2"
+	},
+	{
+		"name": "the third name",
+  		"password": "motdepasse3",
+		"photo": "lien photo2",
+		"fonction": "developpeur",
+		"grant": "Back",
+		"projects": ["idproject3","idproject4"],
+		"tasks": ["idtask3","idtask4"],
+		"droit": "customer",
+		"hourlyrate":"300€",
+		"info": "description #3"
 	}
 ]

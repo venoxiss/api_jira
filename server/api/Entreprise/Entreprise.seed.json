@@ -1,12 +1,20 @@
 [
 	{
-		"name": "the name",
-  		"info": "description",
-  		"active": true
+		"name": "Aston",
+		"logo": "/img/logoaston.jpg",
+		"adresse": "163 venue de Bretagne, 59000 Lille",
+		"siret": "498685494",
+		"projects": ["idproject","idproject2"],
+		"category": "informatique",
+  		"info": "description"
 	},
 	{
-		"name": "the second name",
-  		"info": "description #2",
-  		"active": true
+		"name": "BNP",
+		"logo": "/img/logobnp.jpg",
+		"adresse": "Panama",
+		"siret": "numSiret",
+		"projects": ["idproject","idproject2"],
+		"category": "banque",
+  		"info": "description #2"
 	}
 ]

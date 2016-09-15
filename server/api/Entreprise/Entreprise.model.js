@@ -5,8 +5,12 @@ var mongoose = require('mongoose'),
 
 var EntrepriseSchema = new Schema({
   name: String,
-  info: String,
-  active: Boolean
+  logo: String,
+  adresse: String,
+  siret: String,
+  projects: Array,
+  category: String,
+  info: String
 });
 
 module.exports = mongoose.model('Entreprise', EntrepriseSchema);
