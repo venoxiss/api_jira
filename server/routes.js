@@ -6,6 +6,7 @@
 
 var path = require('path');
 
+
 module.exports = function(app) {
 
   // Insert routes below
@@ -14,5 +15,8 @@ module.exports = function(app) {
   app.use('/api/Contacts', require('./api/Contact'));
   app.use('/api/Users', require('./api/User'));
   app.use('/api/Projects', require('./api/Project'));
+
+  app.use('/login', require('./api/login.js') )
+
 
 };

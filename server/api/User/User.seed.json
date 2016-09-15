@@ -1,7 +1,7 @@
 [
 	{
-		"name": "the name",
-		"password": "motdepasse1",
+		"name": "admin",
+		"password": "d2448e6081558252242a7b8e7a4201ac9da60b1af09dd6993b33fef68e69af61",
 		"photo": "/img/MRrobot",
 		"fonction": "developpeur",
 		"grant": "Front",
@@ -9,12 +9,12 @@
 		"tasks": ["idtask","idtask2"],
 		"droit": "admin",
 		"hourlyrate": "300€",
-  		"info": "description",
-  		"active": true
+		"info": "description",
+		"active": true
 	},
 	{
-		"name": "the second name",
-  		"password": "motdepasse2",
+		"name": "badguys",
+		"password": "d2448e6081558252242a7b8e7a4201ac9da60b1af09dd6993b33fef68e69af61",
 		"photo": "lien photo",
 		"fonction": "developpeur",
 		"grant": "Back",
@@ -25,8 +25,8 @@
 		"info": "description #2"
 	},
 	{
-		"name": "the third name",
-  		"password": "motdepasse3",
+		"name": "japanGuys",
+		"password": "d2448e6081558252242a7b8e7a4201ac9da60b1af09dd6993b33fef68e69af61",
 		"photo": "lien photo2",
 		"fonction": "developpeur",
 		"grant": "Back",
