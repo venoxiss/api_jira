@@ -13,7 +13,10 @@ var ProjectSchema = new Schema({
   doc: Array,
   client : {type: Number, unique: true},
   contactTech : {type: Number, unique: true},
-  contactCom : {type: Number, unique: true}
+  contactCom : {type: Number, unique: true},
+  deadline: Number,
+  info: String,
+  developpeurs: Array
 });
 
 module.exports = mongoose.model('Project', ProjectSchema);

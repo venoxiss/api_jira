@@ -1,11 +1,33 @@
 [
 	{
-		"name": "the name",
-  		"info": "description",
+		"name": "the name",	
+		"status": "1",
+		"businesStatus": "paid",
+		"version": "v1.0",
+		"tasks": ["idtache1","idtache2"],
+		"reports": ["bug1","bug2"],
+		"doc": ["cahier des charges","POC","doc technique"],
+		"client" : 32,
+		"contactTech" : 15,
+		"contactCom" : 6,
+		"deadline": 20161001,
+		"developpeurs": ["Thomas","Raphael"],
+		"info": "description",
   		"active": true
 	},
 	{
 		"name": "the second name",
+		"status": "",
+		"businesStatus": "unpaid",
+		"version": "v2.1",
+		"tasks": ["idtache1","idtache2"],
+		"reports": ["bug1","bug2"],
+		"doc": ["cahier des charges","POC","doc technique"],
+		"client" : 64,
+		"contactTech" : 32,
+		"contactCom" : 10,
+		"deadline": 20161201,
+		"developpeurs": ["Benjamin","Raphael"],
   		"info": "description #2",
   		"active": true
 	}
