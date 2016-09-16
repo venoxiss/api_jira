@@ -11,11 +11,11 @@ var ProjectSchema = new Schema({
   tasks: Array,
   reports: Array,
   doc: Array,
-  client : {type: Number, unique: true},
-  contactTech : {type: Number, unique: true},
-  contactCom : {type: Number, unique: true},
+  client : String,
+  contactTech :String,
+  contactCom : String,
   deadline: Number,
-  info: String,
+  info: { type: String, default: 'les info' },
   developpeurs: Array
 });
 

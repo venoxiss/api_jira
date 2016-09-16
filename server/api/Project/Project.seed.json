@@ -1,7 +1,7 @@
 [
 	{
-		"name": "the name",	
-		"status": "1",
+		"name": "the name",
+		"status": 1,
 		"businesStatus": "paid",
 		"version": "v1.0",
 		"tasks": ["idtache1","idtache2"],
@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "the second name",
-		"status": "",
+		"status": 2,
 		"businesStatus": "unpaid",
 		"version": "v2.1",
 		"tasks": ["idtache1","idtache2"],
